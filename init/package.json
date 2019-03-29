@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack:build": "webpack ./app/js/index.js --output ./dist/bundle.js --mode development"
+    "webpack:build": "webpack ./app/js/index.js --output ./dist/bundle.js --mode development",
+    "webpack:local": "webpack",
+    "server:init":"simplehttpserver ./"
   },
   "keywords": [],
   "author": "",
