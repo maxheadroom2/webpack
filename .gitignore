@@ -1,3 +1,5 @@
 ./init/node_modules
 node_modules
 .gitignore
+./init/package-lock.json
+
